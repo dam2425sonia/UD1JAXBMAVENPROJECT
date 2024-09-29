@@ -3,10 +3,7 @@ package com.example;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
-import javax.xml.bind.annotation.XmlRootElement;
-
 import java.io.File;
-import java.util.Arrays;
 
 //Marshalling
 //Aquí se muestra cómo convertir una instancia de Book a XML.
