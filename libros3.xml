@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<libros>
+<libro id="bk101">
+   <autor>Garghentini, Davide</autor>
+   <titulo>XML Developer's Guide</titulo>
+   <Genre>Computer</Genre>
+   <precio>44.95</precio>
+   <PublishDate>2000-10-01</PublishDate>
+   <Description>An in-depth look at creating applications
+   with XML.</Description>
+</libro>
+<libro id="bk102">
+   <autor>Garghentini, Davide</autor>
+   <titulo>XML Developer's Guide</titulo>
+   <Genre>Computer</Genre>
+   <precio>44.95</precio>
+   <PublishDate>2000-10-01</PublishDate>
+   <Description>An in-depth look at creating applications
+   with XML.</Description>
+</libro>
+</libros>
+
+
+

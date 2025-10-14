@@ -9,6 +9,10 @@ import java.io.Serializable;
 
 //Esta anotación se utiliza para definir una clase como el elemento raíz de un documento XML 
 //cuando se convierte entre objetos Java y XML (proceso conocido como marshalling y unmarshalling).
+//Esta anotación tiene dos atributos opcionales que permiten personalizar el nombre del elemento raíz y su espacio de nombres.
+//@XmlRootElement(name = "book", namespace = "http://www.ejemplo.com/libros")
+//name: Especifica el nombre del elemento raíz en el XML. Si no se define, utiliza el nombre de la clase.
+//namespace: Define el espacio de nombres XML para el elemento raíz. En nuestro caso no es necesario el namespace.
 @XmlRootElement
 public class Book implements Serializable {
     private String title;
@@ -26,10 +30,7 @@ public class Book implements Serializable {
         this.price = price;
     }
 
-    //Esta anotación tiene dos atributos opcionales que permiten personalizar el nombre del elemento raíz y su espacio de nombres.
-    //@XmlRootElement(name = "book", namespace = "http://www.ejemplo.com/libros")
-    //name: Especifica el nombre del elemento raíz en el XML. Si no se define, utiliza el nombre de la clase.
-    //namespace: Define el espacio de nombres XML para el elemento raíz. En nuestro caso no es necesario el namespace.
+  
     @XmlElement
     public String getTitle() {
         return title;
